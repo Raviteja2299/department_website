@@ -20,24 +20,24 @@ left: 0%;
 
 #maintext {
     position: absolute;
-    top: 20%;
+    top: 30%;
     left:15%;
     right: 15%;
     padding: 20px;
-    transform: skew(-20deg);
     background: #18122be7;
     text-transform: uppercase;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 0px 20px 20px 0px;
+    border-left: 15px solid rgb(242, 29, 10);
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .text1 {
-    text-align: start;
+    
     opacity: 100%;
     color: rgb(255, 255, 255);
-    font-size: 80px;
+    font-size: 50px;
     border-bottom: 3px solid #ffffff;
-    text-shadow: 0 0 50px 15px #48abe0;
+ 
 
 
 }
@@ -52,15 +52,15 @@ left: 0%;
 
 
 
-.texttype {
+.texttype h1 {
     position: absolute;
     top: 70%;
-    left: 25%;
+    left: 18%;
     font-size: 60px;
     color: rgb(255, 255, 255);
     margin-right: 20px;
-    background: #0000005a;
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    background: transparent;
+   
 }
 
 #element{
@@ -76,36 +76,30 @@ left: 0%;
 
 @media screen and (max-width: 630px) {
     #maintext {
-        font-size: 15px !important;
+        font-size: 14px !important;
         margin-right: 80px;
-        top: 40%;
+        top: 60%;
         left: 10%;
         right: 10%;
       
     }
 
     .text1{
-        font-size: 30px;
+        font-size: 25px;
         text-align: center;
     }
-    .texttype {
-        left: 5%;
-        top :70%;
-        font-size: 20px !important;
-        margin-right: 30px;
-        padding: 10px;
-    }
-
+ 
+.texttype h1{
+    top: 90%;
+    font-size: 14px;
+    left: 10%;
+}
     .bg-img {
         height: 600px;
         margin-left: 0px;
         margin-right: 0px;
     }
-    .texttype{
-        top: 80%;
-        right: 8%;
-        left: 10%;
-    }
+ 
 
 
     .carousel1 {
@@ -132,7 +126,8 @@ left: 0%;
         right: 10%;
     }
 
-    .texttype{
+    .texttype h1{
+        font-size: 18px;
         top: 80%;
         right: 10%;
     }
